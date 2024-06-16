@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking dos Top-10 Tenistas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot td {
+            text-align: center;
+            font-weight: bold;
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ranking dos Top-10 Tenistas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Nacionalidade</th>
+                <th>Pontos no Ranking</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Novak Djokovic</td>
+                <td>36</td>
+                <td>Sérvia</td>
+                <td>11,830</td>
+            </tr>
+            <tr>
+                <td>Carlos Alcaraz</td>
+                <td>20</td>
+                <td>Espanha</td>
+                <td>8,945</td>
+            </tr>
+            <tr>
+                <td>Daniil Medvedev</td>
+                <td>28</td>
+                <td>Rússia</td>
+                <td>6,720</td>
+            </tr>
+            <tr>
+                <td>Casper Ruud</td>
+                <td>25</td>
+                <td>Noruega</td>
+                <td>5,520</td>
+            </tr>
+            <tr>
+                <td>Stefanos Tsitsipas</td>
+                <td>25</td>
+                <td>Grécia</td>
+                <td>5,090</td>
+            </tr>
+            <tr>
+                <td>Andrey Rublev</td>
+                <td>26</td>
+                <td>Rússia</td>
+                <td>4,750</td>
+            </tr>
+            <tr>
+                <td>Holger Rune</td>
+                <td>20</td>
+                <td>Dinamarca</td>
+                <td>4,640</td>
+            </tr>
+            <tr>
+                <td>Jannik Sinner</td>
+                <td>22</td>
+                <td>Itália</td>
+                <td>4,395</td>
+            </tr>
+            <tr>
+                <td>Taylor Fritz</td>
+                <td>26</td>
+                <td>Estados Unidos</td>
+                <td>3,055</td>
+            </tr>
+            <tr>
+                <td>Frances Tiafoe</td>
+                <td>25</td>
+                <td>Estados Unidos</td>
+                <td>2,995</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Data de Coleta das Informações: 16 de Junho de 2024</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
