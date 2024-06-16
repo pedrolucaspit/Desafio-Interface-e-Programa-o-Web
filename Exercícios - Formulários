@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa de Satisfação</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-section {
+            margin-bottom: 20px;
+        }
+        .form-section h2 {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin: 5px 0;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px 0;
+            box-sizing: border-box;
+        }
+        input[type="radio"],
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulário de Pesquisa de Satisfação</h1>
+
+    <!-- Dados Pessoais -->
+    <div class="form-section">
+        <h2>Dados Pessoais</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required>
+    </div>
+
+    <!-- Pesquisa -->
+    <div class="form-section">
+        <h2>Pesquisa</h2>
+
+        <label>Pergunta 1: Você está satisfeito com nosso serviço?</label>
+        <input type="radio" id="satisfeito_sim" name="satisfeito" value="sim">
+        <label for="satisfeito_sim">Sim</label>
+        <input type="radio" id="satisfeito_nao" name="satisfeito" value="nao">
+        <label for="satisfeito_nao">Não</label>
+
+        <label>Pergunta 2: Como você avalia a qualidade do atendimento?</label>
+        <input type="radio" id="qualidade_excelente" name="qualidade" value="excelente">
+        <label for="qualidade_excelente">Excelente</label>
+        <input type="radio" id="qualidade_bom" name="qualidade" value="bom">
+        <label for="qualidade_bom">Bom</label>
+        <input type="radio" id="qualidade_regular" name="qualidade" value="regular">
+        <label for="qualidade_regular">Regular</label>
+        <input type="radio" id="qualidade_ruim" name="qualidade" value="ruim">
+        <label for="qualidade_ruim">Ruim</label>
+
+        <label for="recomendacao">Pergunta 3: Você recomendaria nossos serviços?</label>
+        <select id="recomendacao" name="recomendacao" required>
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+            <option value="talvez">Talvez</option>
+        </select>
+
+        <input type="checkbox" id="autorizacao" name="autorizacao">
+        <label for="autorizacao">Autorizo compartilhar minha resposta com terceiros</label>
+
+        <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
