@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Filmes Favoritos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .filme {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .filme img {
+            width: 200px;
+            height: 300px;
+            object-fit: cover;
+        }
+        .filme a {
+            text-decoration: none;
+            color: black;
+            display: block;
+            margin-top: 10px;
+        }
+        .filme a:hover {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meus Filmes Favoritos</h1>
+    <div class="galeria">
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme1" target="_blank">
+                <img src="imagens/filme1.jpg" alt="Filme 1">
+                Filme 1
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme2" target="_blank">
+                <img src="imagens/filme2.jpg" alt="Filme 2">
+                Filme 2
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme3" target="_blank">
+                <img src="imagens/filme3.jpg" alt="Filme 3">
+                Filme 3
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme4" target="_blank">
+                <img src="imagens/filme4.jpg" alt="Filme 4">
+                Filme 4
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme5" target="_blank">
+                <img src="imagens/filme5.jpg" alt="Filme 5">
+                Filme 5
+            </a>
+        </div>
+        <div class="filme">
+            <a href="https://pt.wikipedia.org/wiki/Filme6" target="_blank">
+                <img src="imagens/filme6.jpg" alt="Filme 6">
+                Filme 6
+            </a>
+        </div>
+    </div>
+</body>
+</html>
