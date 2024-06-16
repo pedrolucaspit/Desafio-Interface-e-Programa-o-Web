@@ -1,0 +1,42 @@
+Mudança de cor dos links
+css
+Copiar código
+/* Seleciona todos os links e define a cor padrão como vermelha */
+a {
+    color: red;
+    text-decoration: none;
+}
+
+/* Muda a cor para limão quando o link é sobreposto pelo mouse */
+a:hover {
+    color: lemon;
+}
+2. Customização dos parágrafos
+css
+Copiar código
+/* Define a fonte Arial para todos os parágrafos */
+p {
+    font-family: Arial, sans-serif;
+}
+
+/* Define parágrafos logo após h1 em negrito */
+h1 + p {
+    font-weight: bold;
+}
+3. Estilização da classe .destaque
+css
+Copiar código
+/* Define a fonte Arial para qualquer elemento com a classe .destaque */
+.destaque {
+    font-family: Arial, sans-serif;
+}
+
+/* Define o texto em negrito para parágrafos com a classe .destaque */
+p.destaque {
+    font-weight: bold;
+}
+
+/* Define o texto em vermelho para elementos <strong> com a classe .destaque */
+strong.destaque {
+    color: red;
+}
